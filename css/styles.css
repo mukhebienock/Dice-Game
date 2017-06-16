@@ -1,0 +1,11 @@
+.container-fluid{
+  text-align: center;
+  background-color: dimgrey;
+  padding: 5%;
+}
+#row-one {
+  background-image: url(../img/dice.jpg);
+  height: 350px;
+  padding: 100px;
+  color: greenyellow;
+}
