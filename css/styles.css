@@ -18,7 +18,9 @@ button {
   border-radius: 6px;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-
+}
+.totalscore {
+  font-size: 40px;
 }
 #placeholder {
   background-color: #DEB887;
