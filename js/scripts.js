@@ -15,15 +15,20 @@ $(document).ready(function() {
       scoreB.innerHTML = number;
     }
 
+    var yourScore = 0;
+    var myScore = 0;
+
     $("#buton").click(function() {
       var outcome = dice.roll();
       printNumber(outcome);
 
       var scorred = dice.roll();
-      outPutNumber(scorred);
+      yourScore += dice.roll();
+      outPutNumber(yourScore);
 
       var result = dice.roll();
-      puttedNumber(result);
+      myScore += dice.roll();
+      puttedNumber(myScore);
     })
 
 
