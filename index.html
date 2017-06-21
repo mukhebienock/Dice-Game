@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js "></script>
-    <title>A Dice Game</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row" id="row-one">
-        <div class="col-md-12">
-          <h1><strong>Pig Dice Game</strong></h1>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>A Dice Game</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row" id="row-one">
+      <div class="col-md-12">
+        <h1 id="hh1"><strong>Pig Dice Game</strong></h1>
+      </div>
+    </div>
+    <div class="row" id="row-two">
+        <div class="col-md-4" id="competitor1">
+          <h2>player1</h2>
+          <div class="placeholder" id="scoreA">0</div>
+        </div>
+        <div class="col-md-4" id="place">
+          <p class="placeholder" id="placeholder"></p>
+          <button type="submit" id="buton"><h1><strong>Play</strong></h1></button>
+        </div>
+        <div class="col-md-4" id="competitor2">
+          <h2>player2</h2>
+          <div class="placeholder" id="scoreB">0</div>
         </div>
       </div>
-      <div class="row" id="row-two">
-          <div class="col-md-4" id="competitor1">
-            <h2>Player1</h2>
-            <div class="totalscore" id="scoreA">0</div>
-          </div>
-          <div class="col-md-4" id="place">
-            <p id="placeholder"></p>
-            <button type="submit" id="button"><h1><strong>PLAY</strong></h1></button>
-          </div>
-          <div class="col-md-4" id="competitor2">
-            <h2>Player2</h2>
-            <div class="totalscore" id="scoreB">0</div>
-          </div>
-        </div>
-
-    </div>
-  </body>
+  </div>
+</body>
 </html>

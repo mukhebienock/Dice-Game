@@ -5,14 +5,26 @@ $(document).ready(function() {
       placeholder.innerHTML = number;
     }
 
+    function outPutNumber(number) {
+      var scoreA = document.getElementById('scoreA')
+      scoreA.innerHTML = number;
+    }
 
-    var button = document.getElementById('button');
+    function puttedNumber(number) {
+      var scoreB = document.getElementById('scoreB')
+      scoreB.innerHTML = number;
+    }
 
-    button.onclick = function() {
+    $("#buton").click(function() {
       var outcome = dice.roll();
       printNumber(outcome);
 
-    };
+      var scorred = dice.roll();
+      outPutNumber(scorred);
+
+      var result = dice.roll();
+      puttedNumber(result);
+    })
 
 
   var dice = {
